@@ -1,0 +1,9 @@
+import { HTTP_CONFIG } from '@/core/constants/http.constants';
+import { MILLISECONDS } from '@/core/constants/time.constants';
+
+export const NETWORK_CONFIG = {
+  REACHABILITY_URL: `${HTTP_CONFIG.BASE_URL}/`,
+  REACHABILITY_SHORT_TIMEOUT_MS: 5 * MILLISECONDS.SECOND,
+  REACHABILITY_LONG_TIMEOUT_MS: MILLISECONDS.MINUTE,
+  REACHABILITY_REQUEST_TIMEOUT_MS: 8 * MILLISECONDS.SECOND,
+} as const;

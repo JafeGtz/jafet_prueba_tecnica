@@ -1,0 +1,15 @@
+export const colors = {
+  background: '#F4F5FA',
+  surface: '#FFFFFF',
+  primary: '#D62828',
+  onPrimary: '#FFFFFF',
+  textPrimary: '#1B1D2A',
+  textSecondary: '#555A6E',
+  border: '#E3E5EE',
+  skeleton: '#E4E6EE',
+  track: '#ECEEF4',
+  offline: '#2F3142',
+  onOffline: '#FFFFFF',
+  shadow: '#1B1D2A',
+  pokeballBand: '#1B1D2A',
+} as const;
